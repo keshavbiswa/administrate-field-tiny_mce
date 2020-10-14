@@ -1,8 +1,6 @@
-require_relative 'lib/administrate/field/tiny_mce/version'
-
 Gem::Specification.new do |spec|
   spec.name          = "administrate-field-tiny_mce"
-  spec.version       = Administrate::Field::TinyMce::VERSION
+  spec.version       = '0.0.1'
   spec.authors       = ["Keshav Biswa"]
   spec.email         = ["keshavbiswa21@gmail.com"]
 
@@ -27,5 +25,5 @@ Gem::Specification.new do |spec|
 
   spec.add_runtime_dependency 'administrate', '< 1.0.0'
   spec.add_runtime_dependency 'rails', '>= 4.1'
-  spec.add_runtime_dependency 'tinymce-rails', '>= 3.5.11'
+  spec.add_runtime_dependency 'tinymce-rails', '>= 4.4.3'
 end

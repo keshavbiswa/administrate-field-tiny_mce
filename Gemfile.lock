@@ -1,10 +1,10 @@
 PATH
   remote: .
   specs:
-    administrate-field-tiny_mce (0.1.0)
+    administrate-field-tiny_mce (0.0.1)
       administrate (< 1.0.0)
       rails (>= 4.1)
-      tinymce-rails (>= 3.5.11)
+      tinymce-rails (>= 4.4.3)
 
 GEM
   remote: https://rubygems.org/

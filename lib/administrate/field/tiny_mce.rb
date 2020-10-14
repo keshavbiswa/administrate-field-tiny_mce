@@ -1,5 +1,6 @@
 require 'administrate/field/base'
 require 'rails'
+require 'tinymce-rails'
 
 module Administrate
   module Field
